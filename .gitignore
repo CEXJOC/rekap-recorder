@@ -1,0 +1,10 @@
+node_modules/
+dist/
+coverage/
+.env
+.env.*
+*.log
+# Recordings never belong in git.
+*.mp4
+*.mkv
+*.rofl

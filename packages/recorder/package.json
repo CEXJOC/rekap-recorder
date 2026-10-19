@@ -1,0 +1,17 @@
+{
+  "name": "@rekap/recorder",
+  "version": "0.1.0-draft",
+  "description": "Rekap recorder: live games (Live Client polling, League queue filter, screen capture) and the import of the player's own replays (replay viewer capture).",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "src/lib/companion/companion.ts",
+  "exports": {
+    ".": "./src/lib/companion/companion.ts",
+    "./post-game": "./src/lib/companion/post-game.ts",
+    "./own-replay": "./scripts/replay/own-replay.ts"
+  },
+  "dependencies": {
+    "zod": "^4.6.5",
+    "ffmpeg-static": "^5.3.0"
+  }
+}

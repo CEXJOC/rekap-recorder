@@ -1,0 +1,12 @@
+{
+  "name": "@rekap/contract",
+  "version": "0.1.0-draft",
+  "description": "What Rekap's recorder may send from a player's PC: recording format, upload manifest and pseudonymization.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "src/index.ts",
+  "exports": { ".": "./src/index.ts" },
+  "dependencies": {
+    "zod": "^4.6.5"
+  }
+}
